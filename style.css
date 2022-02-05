@@ -1,0 +1,38 @@
+body {
+   width: 100%;
+   padding: 100px 80px;
+}
+
+#check_box {
+    text-align: right;
+}
+
+.itemNames{color: black;}
+
+#checkbox:checked~.itemNames{text-decoration: line-through; color: grey;}
+
+.container {margin: 0 20%; display: flex;}
+
+tr, #task {border: none;}
+
+.modal-trigger{font-style: italic;}
+
+#background {padding: 20px 40px;  margin-left: 70px; width: 700px; height: 800px; display: flex ; flex-direction: column;}
+
+#checkAsDone {display: flex; padding: 0 7px;}
+
+.filled-in {float: left; margin-top: 5px;}
+
+#rightAligners {float: right; padding-right: 15px; margin-top: -27px;}
+
+.white-text{margin-bottom: 70px;}
+
+.taskNames {color: black;}
+
+.liTasks {background-color: white; border-radius: 5px; padding: 10px; margin-top: 10px;}
+
+li.impliNames { background-color: white; border-radius: 5px; padding: 20px; margin-top: 50px;}
+
+#addATask{border-radius: 7px;}
+
+
